@@ -1,0 +1,77 @@
+.common{
+   /* background-color: aqua;
+    border: 2px solid black;*/
+    position:fixed;
+}
+
+/*PAGE 1*/
+
+.title{
+    top: 5px;
+    left:583px;
+    right:583px;
+    height: 100px;
+    text-align: center;
+    letter-spacing: 13px;
+    font-size: 2rem;
+    font-family:s'Source Code Pro';
+    font-weight: lighter;
+    font color: white;
+    justify-content: center;
+    text-decoration: line-through #17252a solid;
+    z-index: 1p;
+    justify-content: flex-start;
+}
+
+.outnow{
+    top: 200px;
+    left:100px;
+    right: 950px;
+    height: 550px;
+    z-index: 4p;
+    padding-left: 2px
+    
+}
+
+.navleft{
+    top: 40px;
+    left: 20px;
+    right: 1100px;
+    height: 60px;
+    position: fixed;
+    transition: top 0.03s;
+    z-index: 2p;    
+}
+
+.navright{
+    top:40px;
+    left: 1100px;
+    right: 20px;
+    height: 60px;
+    position: fixed;
+    transition: top 0.03s;
+    z-index: 3p;
+}
+
+
+/*.footer{
+    bottom:20px;
+    height: 100px;
+    right: 600px;
+    left: 600px;
+    position: absolute;
+    align-content: center;
+}*/
+
+.sidebar{
+    top: 200px;
+    right: 75px;
+    left: 1520px;
+    position: fixed;
+    pointer-events: stroke;  
+}
+
+hr{
+    color: goldenrod
+}
+
